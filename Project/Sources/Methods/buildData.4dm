@@ -5,4 +5,4 @@ For ($i;1;1000)
 	$e.val:="titi"+String:C10(Random:C100)
 	$e.save()
 End for 
-ALERT:C41("done")
+ALERT:C41("done twice")
