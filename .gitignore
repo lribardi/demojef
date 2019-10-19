@@ -1,0 +1,21 @@
+# Ignore invisible files/folders except .gitignore
+.*
+!.gitignore
+
+# Ignore data file
+DATA/
+data/
+
+# Ignore logs
+Logs/
+
+# Ignore derived data
+DerivedData/
+
+# Ignore settings & preferences
+Settings/
+!buildApp.4DSettings
+userPreferences.*/
+Preferences/
+
+# Miscellaneous

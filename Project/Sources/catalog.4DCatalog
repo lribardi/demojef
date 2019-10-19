@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE base SYSTEM "http://www.4d.com/dtd/2007/base.dtd" >
+<base name="" uuid="88F07FD61A39124D9DE87BCE76262B4A" collation_locale="fr">
+	<schema name="DEFAULT_SCHEMA"/>
+	<table name="elems" uuid="C2FFBC7B802E8F43869433C43E7329B5" id="1">
+		<field name="ID" uuid="CB38B9474A1259428EB849D6AEF72845" type="4" unique="true" autosequence="true" not_null="true" id="1"/>
+		<field name="key" uuid="34DFCF3AFFCA514F8A6717C7DD07AAE2" type="10" limiting_length="255" never_null="true" id="2"/>
+		<field name="val" uuid="7C03EA7EA4678F459E9693678E468B75" type="10" limiting_length="255" never_null="true" id="3"/>
+		<primary_key field_name="ID" field_uuid="CB38B9474A1259428EB849D6AEF72845"/>
+		<table_extra>
+			<editor_table_info displayable_fields_count="6">
+				<color red="255" green="255" blue="255" alpha="0"/>
+				<coordinates left="115" top="95" width="120" height="167.33203125"/>
+			</editor_table_info>
+		</table_extra>
+	</table>
+	<index kind="regular" unique_keys="true" uuid="ADDEFE3CEB87744FA1669CB5C2CD04FA" type="7">
+		<field_ref uuid="CB38B9474A1259428EB849D6AEF72845" name="ID">
+			<table_ref uuid="C2FFBC7B802E8F43869433C43E7329B5" name="elems"/>
+		</field_ref>
+	</index>
+	<base_extra __stringCompHash="icu:63.1.0" __keywordBuildingHash="icu:63.1.0"/>
+</base>
